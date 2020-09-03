@@ -1,3 +1,39 @@
+.formStyle{
+  padding:20px; 
+  width: 30%; 
+  line-height: 25px; 
+  border: 2px solid black; 
+  border-radius: 10px;
+}
+
+.h1Style{
+  text-align: center;
+}
+
+.labelPelanggan{
+  width: 300px;
+}
+
+.inputNama{
+  margin-left: 5px;
+}
+
+.daftarItem{
+  display: flex;
+}
+
+.labelDaftarItem{
+  width: 110px;
+}
+
+.checkboxStyle{
+  margin-left: 20px;
+}
+
+.inputKirim{
+  border-radius: 100px;
+}
+
 .App {
   text-align: center;
 }

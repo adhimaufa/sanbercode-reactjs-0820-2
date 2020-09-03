@@ -4,23 +4,29 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <form className="formStyle">
+        <h1 className="h1Style">Form Pembelian Buah</h1>
+        <label className = "labelPElanggan"><b>Nama Pelanggan</b></label>
+        <input type="text" id="fname" name="fname" placeholder="Kopiko" className="inputNama"/><br/>
+        <div className="daftarItem">
+          <label className="labelDaftarItem"><b>Daftar Item</b></label>
+          <div className="checkboxStyle">
+            <input type="checkbox" value="semangka"/>
+            <label >Semangka</label><br/>		  
+            <input type="checkbox" value="jeruk"/>
+            <label >Jeruk</label><br/>
+            <input type="checkbox" value="nanas"/>
+            <label >Nanas</label><br/>
+            <input type="checkbox" value="salak" />
+            <label >Salak</label><br/>
+            <input type="checkbox" value="anggur"/>
+            <label >Anggur</label><br/>
+          </div>
+        </div>
+        <input className="inputKirim" type="submit" value="Kirim" />
+      </form>
   );
 }
 
 export default App;
+

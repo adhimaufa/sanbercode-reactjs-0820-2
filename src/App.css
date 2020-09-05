@@ -1,4 +1,27 @@
+body{
+  max-width: 90%;
+  margin: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#satu td{
+  background-color: orangered;
+  color: black;
+  width: 100px;
+}
+
+#satu th{
+    background-color: grey;
+    color: black;
+    width: 200px;
+}
+
 .formStyle{
+  margin-top: 20px;
   padding:20px; 
   width: 30%; 
   line-height: 25px; 
